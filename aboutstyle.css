@@ -1,0 +1,46 @@
+.body{
+    background-color: #141313;
+}
+
+.ab{
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+    border-radius: 30px;
+    padding: 2%;
+    background-color: rgba(29, 27, 36, 0.926);
+    color: azure;
+}
+
+.menu{
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 30px;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}

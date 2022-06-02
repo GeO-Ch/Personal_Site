@@ -1,0 +1,65 @@
+.body{
+    background-color: #141313;
+}
+
+.menu{
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 30px;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.main-row{
+    display: flex;  
+}
+
+.side-flex-container{
+    flex: 30%;
+    flex-direction: column;
+    background-color: rgba(29, 27, 36, 0.926);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 30px;
+}
+
+#georgiosphoto{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.flex-container{
+    flex: 70%;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 27, 36);
+    padding: 25px;
+    border-radius: 30px;
+    margin-left: 2%;
+}
+
